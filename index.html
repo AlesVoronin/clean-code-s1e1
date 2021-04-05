@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en-us">
 <head>
   <title>Todo App</title>
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700"
@@ -7,23 +7,22 @@
         type="text/css">
   <link rel="stylesheet"
         href="style.css"
-        media="screen"
-        charset="utf-8">
+        media="screen">
 </head>
 <body class="page">
-<div class="header-info">
+<article class="header-info">
   <img src="./eisenhower-matrix.jpg">
   <a class="more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">
     Want more details?;
   </a>
-</div>
-<div class="main">
-  <p id="topSectionForAddingElementToList"><label for="new-task">Add Item</label>
+</article>
+<main class="main">
+  <section><label for="new-task">Add Item</label>
   <div class="task-row-wrapper">
     <input id="new-task" class="task" type="text">
     <button class="btn">Add</button>
   </div>
-  </p>
+  </section>
   <h3>Todo</h3>
   <ul id="incompleteTasks" class="list">
     <li class="list-elem">
@@ -42,12 +41,14 @@
   <h3>Completed</h3>
   <ul id="completed-tasks" class="list">
     <li class="list-elem">
-      <input type="checkbox" checked><label class="task">See the Doctor</label><input type="text" class="task">
+      <input type="checkbox" checked>
+        <label class="task">See the Doctor</label>
+      <input type="text" class="task">
       <button class="edit btn">Edit</button>
       <button class="delete btn"><img src="./remove.svg"></button>
     </li>
   </ul>
-</div>
+</main>
 <script src="app.js"></script>
 </body>
 </html>
