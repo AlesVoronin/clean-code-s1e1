@@ -16,7 +16,7 @@
   width: 100%;
 }
 
-.header-info .more-inf {
+.header-info .header-info__href {
   font-family: fantasy, cursive;
 }
 
@@ -40,7 +40,7 @@
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.add-section__label {
   display: flex;
 }
 
@@ -49,7 +49,7 @@
   padding: 0;
 }
 
-.list-elem,
+.list__elem,
 h3 {
   list-style: none;
 }
